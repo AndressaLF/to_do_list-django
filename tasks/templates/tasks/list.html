@@ -47,7 +47,7 @@
 </style>
 
 <div class="center-column">
-    <form method="POST" action="/">
+    <form method="POST" action="">
         {% csrf_token %}
         {{form.title}}
         <input class='btn btn-info' type="submit" name="Create Task" value="Submit">
